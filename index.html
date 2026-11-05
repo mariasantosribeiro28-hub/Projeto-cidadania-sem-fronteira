@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cidadania Sem Fronteiras: informações, orientação e acesso aos serviços públicos.">
+    <title>Cidadania Sem Fronteiras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a class="pular-conteudo" href="#conteudo"
+        data-pt="Pular para o conteúdo"
+        data-en="Skip to content"
+        data-es="Saltar al contenido">
+        Pular para o conteúdo
+    </a>
+
+    <header class="cabecalho">
+
+        <div class="logo">Cidadania Sem Fronteiras</div>
+
+        <nav class="menu" aria-label="Menu principal">
+
+            <a href="index.html" aria-current="page"
+                data-pt="Início" data-en="Home" data-es="Inicio">
+                Início
+            </a>
+
+            <a href="servicos.html"
+                data-pt="Serviços" data-en="Services" data-es="Servicios">
+                Serviços
+            </a>
+
+            <a href="#acessibilidade"
+                data-pt="Acessibilidade" data-en="Accessibility" data-es="Accesibilidad">
+                Acessibilidade
+            </a>
+
+            <a href="#sobre"
+                data-pt="Sobre" data-en="About" data-es="Sobre">
+                Sobre
+            </a>
+
+        </nav>
+
+        <select id="idioma" aria-label="Selecionar idioma">
+            <option value="pt">Português</option>
+            <option value="en">English</option>
+            <option value="es">Español</option>
+        </select>
+
+    </header>
+
+    <main id="conteudo">
+
+        <!-- BANNER -->
+
+        <section class="banner">
+            <img
+                src="file_CSF.png"
+                alt="Banner do projeto Cidadania Sem Fronteiras"
+                class="banner-imagem">
+        </section>
+
+        <!-- APRESENTAÇÃO -->
+
+        <section class="inicio">
+
+            <h1
+                data-pt="Bem-vindo ao Cidadania Sem Fronteiras!"
+                data-en="Welcome to Citizenship Without Borders!"
+                data-es="¡Bienvenido a Ciudadanía Sin Fronteras!">
+                Bem-vindo ao Cidadania Sem Fronteiras!
+            </h1>
+
+            <p
+                data-pt="Informação, inclusão e respeito para todos. Nosso objetivo é facilitar o acesso a informações sobre serviços públicos e direitos sociais."
+                data-en="Information, inclusion and respect for everyone. Our goal is to make information about public services and social rights easier to access."
+                data-es="Información, inclusión y respeto para todos. Nuestro objetivo es facilitar el acceso a información sobre servicios públicos y derechos sociales.">
+                Informação, inclusão e respeito para todos. Nosso objetivo é facilitar o acesso a informações sobre serviços públicos e direitos sociais.
+            </p>
+
+            <a href="servicos.html" class="botao"
+                data-pt="Encontre serviços públicos"
+                data-en="Find public services"
+                data-es="Encuentre servicios públicos">
+                Encontre serviços públicos
+            </a>
+
+        </section>
+
+        <!-- DOCUMENTOS NECESSÁRIOS -->
+
+        <section class="secao-informativa" id="documentos">
+
+            <h2
+                data-pt="Documentos necessários"
+                data-en="Required documents"
+                data-es="Documentos necesarios">
+                Documentos necessários
+            </h2>
+
+            <p
+                data-pt="Conheça alguns documentos que podem ser solicitados durante o acesso aos serviços públicos."
+                data-en="Learn about some documents that may be requested when accessing public services."
+                data-es="Conozca algunos documentos que pueden solicitarse al acceder a los servicios públicos.">
+                Conheça alguns documentos que podem ser solicitados durante o acesso aos serviços públicos.
+            </p>
+
+            <div class="grade-informativa">
+
+                <article class="cartao-informativo">
+                    <div class="icone-cartao">🪪</div>
+                    <h3>RG ou CIN</h3>
+                    <p
+                        data-pt="Documento de identificação pessoal. A Carteira de Identidade Nacional (CIN) utiliza o CPF como número único de identificação."
+                        data-en="Personal identification document. The National Identity Card (CIN) uses the CPF as a unique identification number."
+                        data-es="Documento de identificación personal. La Tarjeta de Identidad Nacional (CIN) utiliza el CPF como número único de identificación.">
+                        Documento de identificação pessoal. A Carteira de Identidade Nacional (CIN) utiliza o CPF como número único de identificação.
+                    </p>
+                </article>
+
+                <article class="cartao-informativo">
+                    <div class="icone-cartao">📄</div>
+                    <h3>CPF</h3>
+                    <p
+                        data-pt="Cadastro de Pessoa Física, utilizado em diversos serviços, cadastros e solicitações."
+                        data-en="Individual Taxpayer Registry, used in various services, registrations and applications."
+                        data-es="Registro de Personas Físicas, utilizado en diversos servicios, registros y solicitudes.">
+                        Cadastro de Pessoa Física, utilizado em diversos serviços, cadastros e solicitações.
+                    </p>
+                </article>
+
+                <article class="cartao-informativo">
+                    <div class="icone-cartao">🏠</div>
+                    <h3
+                        data-pt="Comprovante de residência"
+                        data-en="Proof of address"
+                        data-es="Comprobante de domicilio">
+                        Comprovante de residência
+                    </h3>
+                    <p
+                        data-pt="Pode ser solicitado para confirmar o endereço da pessoa. A aceitação de documentos pode variar conforme o serviço."
+                        data-en="May be requested to confirm a person's address. Accepted documents may vary depending on the service."
+                        data-es="Puede solicitarse para confirmar la dirección de la persona. Los documentos aceptados pueden variar según el servicio.">
+                        Pode ser solicitado para confirmar o endereço da pessoa. A aceitação de documentos pode variar conforme o serviço.
+                    </p>
+                </article>
+
+                <article class="cartao-informativo">
+                    <div class="icone-cartao">🏥</div>
+                    <h3>Cartão SUS</h3>
+                    <p
+                        data-pt="Documento que identifica o usuário do Sistema Único de Saúde e facilita o acesso às informações de saúde."
+                        data-en="Document that identifies users of the Brazilian Unified Health System and helps access health information."
+                        data-es="Documento que identifica a los usuarios del Sistema Único de Salud de Brasil y facilita el acceso a la información sanitaria.">
+                        Documento que identifica o usuário do Sistema Único de Saúde e facilita o acesso às informações de saúde.
+                    </p>
+                </article>
+
+                <article class="cartao-informativo">
+                    <div class="icone-cartao">🤝</div>
+                    <h3>CadÚnico</h3>
+                    <p
+                        data-pt="Cadastro utilizado para identificar e conhecer a realidade das famílias de baixa renda. A inscrição é realizada presencialmente nos locais indicados pelo município."
+                        data-en="Registry used to identify and understand the circumstances of low-income families. Registration takes place in person at locations indicated by the municipality."
+                        data-es="Registro utilizado para identificar y conocer la realidad de las familias de bajos ingresos. La inscripción se realiza presencialmente en los lugares indicados por el municipio.">
+                        Cadastro utilizado para identificar e conhecer a realidade das famílias de baixa renda. A inscrição é realizada presencialmente nos locais indicados pelo município.
+                    </p>
+                </article>
+
+            </div>
+
+            <p class="aviso-informativo"
+                data-pt="Atenção: os documentos exigidos variam de acordo com o serviço e o órgão responsável. Consulte sempre o canal oficial antes de comparecer."
+                data-en="Attention: required documents vary depending on the service and responsible agency. Always check the official channel before visiting."
+                data-es="Atención: los documentos exigidos varían según el servicio y el organismo responsable. Consulte siempre el canal oficial antes de acudir.">
+                Atenção: os documentos exigidos variam de acordo com o serviço e o órgão responsável. Consulte sempre o canal oficial antes de comparecer.
+            </p>
+
+        </section>
+
+        <!-- ORIENTAÇÃO -->
+
+        <section class="secao-informativa" id="orientacao">
+
+            <h2
+                data-pt="Está com dificuldade para acessar um serviço?"
+                data-en="Having difficulty accessing a service?"
+                data-es="¿Tiene dificultades para acceder a un servicio?">
+                Está com dificuldade para acessar um serviço?
+            </h2>
+
+            <p
+                data-pt="Veja algumas orientações que podem ajudar você a encontrar atendimento e resolver suas dúvidas."
+                data-en="See some guidance that may help you find assistance and answer your questions."
+                data-es="Consulte algunas orientaciones que pueden ayudarle a encontrar atención y resolver sus dudas.">
+                Veja algumas orientações que podem ajudar você a encontrar atendimento e resolver suas dúvidas.
+            </p>
+
+            <div class="grade-informativa">
+
+                <article class="cartao-informativo">
+                    <div class="icone-cartao">📍</div>
+                    <h3
+                        data-pt="Não sabe onde procurar?"
+                        data-en="Don't know where to go?"
+                        data-es="¿No sabe dónde acudir?">
+                        Não sabe onde procurar?
+                    </h3>
+                    <p
+                        data-pt="Utilize nossa busca para selecionar seu estado e município e encontrar locais relacionados aos serviços públicos."
+                        data-en="Use our search to select your state and municipality and find locations related to public services."
+                        data-es="Utilice nuestra búsqueda para seleccionar su estado y municipio y encontrar lugares relacionados con los servicios públicos.">
+                        Utilize nossa busca para selecionar seu estado e município e encontrar locais relacionados aos serviços públicos.
+                    </p>
+                    <a href="servicos.html" class="link-informativo"
+                        data-pt="Encontrar serviços"
+                        data-en="Find services"
+                        data-es="Encontrar servicios">
+                        Encontrar serviços
+                    </a>
+                </article>
+
+                <article class="cartao-informativo">
+                    <div class="icone-cartao">📋</div>
+                    <h3
+                        data-pt="Não conseguiu atendimento?"
+                        data-en="Could not get assistance?"
+                        data-es="¿No consiguió atención?">
+                        Não conseguiu atendimento?
+                    </h3>
+                    <p
+                        data-pt="Procure o canal oficial do órgão responsável e peça informações sobre o atendimento, os procedimentos e as possibilidades de encaminhamento."
+                        data-en="Contact the responsible agency's official channel and ask about assistance, procedures and possible referrals."
+                        data-es="Busque el canal oficial del organismo responsable y solicite información sobre la atención, los procedimientos y las posibilidades de derivación.">
+                        Procure o canal oficial do órgão responsável e peça informações sobre o atendimento, os procedimentos e as possibilidades de encaminhamento.
+                    </p>
+                </article>
+
+                <article class="cartao-informativo">
+                    <div class="icone-cartao">📢</div>
+                    <h3
+                        data-pt="Precisa registrar uma reclamação?"
+                        data-en="Need to file a complaint?"
+                        data-es="¿Necesita presentar una queja?">
+                        Precisa registrar uma reclamação?
+                    </h3>
+                    <p
+                        data-pt="Você pode procurar a ouvidoria do órgão responsável para registrar manifestações, reclamações, sugestões ou pedidos de informação."
+                        data-en="You can contact the responsible agency's ombudsman to submit feedback, complaints, suggestions or requests for information."
+                        data-es="Puede contactar con la oficina de atención del organismo responsable para presentar comentarios, quejas, sugerencias o solicitudes de información.">
+                        Você pode procurar a ouvidoria do órgão responsável para registrar manifestações, reclamações, sugestões ou pedidos de informação.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- DIREITOS DO CIDADÃO -->
+
+        <section class="secao-informativa" id="direitos">
+
+            <h2
+                data-pt="Conheça seus direitos"
+                data-en="Know your rights"
+                data-es="Conozca sus derechos">
+                Conheça seus direitos
+            </h2>
+
+            <p
+                data-pt="Todo cidadão possui direitos que contribuem para uma vida digna e para o acesso aos serviços essenciais."
+                data-en="Every citizen has rights that contribute to a dignified life and access to essential services."
+                data-es="Todo ciudadano tiene derechos que contribuyen a una vida digna y al acceso a los servicios esenciales.">
+                Todo cidadão possui direitos que contribuem para uma vida digna e para o acesso aos serviços essenciais.
+            </p>
+
+            <div class="grade-informativa">
+
+                <article class="cartao-informativo">
+                    <div class="icone-cartao">🏥</div>
+                    <h3
+                        data-pt="Direito à saúde"
+                        data-en="Right to healthcare"
+                        data-es="Derecho a la salud">
+                        Direito à saúde
+                    </h3>
+                    <p
+                        data-pt="A saúde é um direito de todos e um dever do Estado, garantido por meio de políticas públicas e do Sistema Único de Saúde (SUS)."
+                        data-en="Health is everyone's right and a duty of the State, guaranteed through public policies and the Unified Health System (SUS)."
+                        data-es="La salud es un derecho de todos y un deber del Estado, garantizado mediante políticas públicas y el Sistema Único de Salud (SUS).">
+                        A saúde é um direito de todos e um dever do Estado, garantido por meio de políticas públicas e do Sistema Único de Saúde (SUS).
+                    </p>
+                </article>
+
+                <article class="cartao-informativo">
+                    <div class="icone-cartao">📚</div>
+                    <h3
+                        data-pt="Direito à educação"
+                        data-en="Right to education"
+                        data-es="Derecho a la educación">
+                        Direito à educação
+                    </h3>
+                    <p
+                        data-pt="A educação é um direito de todos e deve ser promovida pelo Estado e pela família, garantindo acesso à formação e ao desenvolvimento."
+                        data-en="Education is everyone's right and must be promoted by the State and family, ensuring access to learning and development."
+                        data-es="La educación es un derecho de todos y debe ser promovida por el Estado y la familia, garantizando el acceso a la formación y al desarrollo.">
+                        A educação é um direito de todos e deve ser promovida pelo Estado e pela família, garantindo acesso à formação e ao desenvolvimento.
+                    </p>
+                </article>
+
+                <article class="cartao-informativo">
+                    <div class="icone-cartao">🤝</div>
+                    <h3
+                        data-pt="Direito à assistência social"
+                        data-en="Right to social assistance"
+                        data-es="Derecho a la asistencia social">
+                        Direito à assistência social
+                    </h3>
+                    <p
+                        data-pt="A assistência social é destinada a quem dela necessitar, independentemente de contribuição à seguridade social."
+                        data-en="Social assistance is intended for anyone who needs it, regardless of contributions to social security."
+                        data-es="La asistencia social está destinada a quienes la necesiten, independientemente de sus contribuciones a la seguridad social.">
+                        A assistência social é destinada a quem dela necessitar, independentemente de contribuição à seguridade social.
+                    </p>
+                </article>
+
+                <article class="cartao-informativo">
+                    <div class="icone-cartao">⚖️</div>
+                    <h3
+                        data-pt="Direito à informação"
+                        data-en="Right to information"
+                        data-es="Derecho a la información">
+                        Direito à informação
+                    </h3>
+                    <p
+                        data-pt="O cidadão tem direito de solicitar e receber informações públicas, respeitadas as regras legais de acesso e proteção de dados."
+                        data-en="Citizens have the right to request and receive public information, subject to legal rules on access and data protection."
+                        data-es="Los ciudadanos tienen derecho a solicitar y recibir información pública, respetando las normas legales de acceso y protección de datos.">
+                        O cidadão tem direito de solicitar e receber informações públicas, respeitadas as regras legais de acesso e proteção de dados.
+                    </p>
+                </article>
+
+            </div>
+
+            <p class="aviso-informativo"
+                data-pt="Estas informações são orientativas e não substituem a consulta às leis e aos órgãos públicos responsáveis."
+                data-en="This information is for guidance and does not replace consultation with the relevant laws and public agencies."
+                data-es="Esta información es orientativa y no sustituye la consulta de las leyes y los organismos públicos responsables.">
+                Estas informações são orientativas e não substituem a consulta às leis e aos órgãos públicos responsáveis.
+            </p>
+
+        </section>
+
+        <!-- ACESSIBILIDADE -->
+
+        <section id="acessibilidade" class="acessibilidade">
+
+            <h2
+                data-pt="Recursos de acessibilidade"
+                data-en="Accessibility features"
+                data-es="Recursos de accesibilidad">
+                Recursos de acessibilidade
+            </h2>
+
+            <p
+                data-pt="Personalize sua experiência de navegação."
+                data-en="Customize your browsing experience."
+                data-es="Personalice su experiencia de navegación.">
+                Personalize sua experiência de navegação.
+            </p>
+
+            <div class="controles">
+
+                <button id="aumentarTexto" type="button"
+                    data-pt="A+ Aumentar texto"
+                    data-en="A+ Increase text"
+                    data-es="A+ Aumentar texto">
+                    A+ Aumentar texto
+                </button>
+
+                <button id="diminuirTexto" type="button"
+                    data-pt="A- Diminuir texto"
+                    data-en="A- Decrease text"
+                    data-es="A- Reducir texto">
+                    A- Diminuir texto
+                </button>
+
+                <button id="contraste" type="button" aria-pressed="false"
+                    data-pt="Alto contraste"
+                    data-en="High contrast"
+                    data-es="Alto contraste">
+                    Alto contraste
+                </button>
+
+                <button id="leituraSimples" type="button" aria-pressed="false"
+                    data-pt="Leitura simplificada"
+                    data-en="Simplified reading"
+                    data-es="Lectura simplificada">
+                    Leitura simplificada
+                </button>
+
+            </div>
+
+            <p class="dica-acessibilidade"
+                data-pt="Dica: utilize a tecla Tab para navegar pelos elementos da página."
+                data-en="Tip: use the Tab key to navigate through page elements."
+                data-es="Consejo: utilice la tecla Tab para navegar por los elementos de la página.">
+                Dica: utilize a tecla Tab para navegar pelos elementos da página.
+            </p>
+
+        </section>
+
+        <!-- SOBRE -->
+
+        <section id="sobre" class="sobre">
+
+            <h2
+                data-pt="Sobre o projeto"
+                data-en="About the project"
+                data-es="Sobre el proyecto">
+                Sobre o projeto
+            </h2>
+
+            <p
+                data-pt="O Cidadania Sem Fronteiras é um projeto desenvolvido pelo Grupo 3 do curso Técnico em Desenvolvimento de Sistemas, com o objetivo de facilitar o acesso à informação sobre serviços públicos, promovendo inclusão, acessibilidade e cidadania."
+                data-en="Citizenship Without Borders is a project developed by Group 3 of the Systems Development Technical Course, aiming to make information about public services easier to access and promote inclusion, accessibility and citizenship."
+                data-es="Ciudadanía Sin Fronteras es un proyecto desarrollado por el Grupo 3 del curso Técnico en Desarrollo de Sistemas, con el objetivo de facilitar el acceso a la información sobre servicios públicos y promover la inclusión, la accesibilidad y la ciudadanía.">
+                O Cidadania Sem Fronteiras é um projeto desenvolvido pelo Grupo 3 do curso Técnico em Desenvolvimento de Sistemas, com o objetivo de facilitar o acesso à informação sobre serviços públicos, promovendo inclusão, acessibilidade e cidadania.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>Grupo 3 – Serviços Públicos</p>
+        <p>Maria Vitória, Riciane e Kamille</p>
+        <p>Curso Técnico em Desenvolvimento de Sistemas</p>
+        <p>CEEP – 2026</p>
+
+    </footer>
+
+    <!-- LEITURA EM VOZ ALTA -->
+
+    <button id="botaoAudio" class="botao-audio" type="button"
+        aria-label="Abrir leitura em voz alta"
+        aria-expanded="false"
+        aria-controls="painelAudio">
+        🔊
+    </button>
+
+    <div id="painelAudio" class="painel-audio" hidden>
+
+        <p
+            data-pt="Leitura em voz alta"
+            data-en="Read aloud"
+            data-es="Lectura en voz alta">
+            Leitura em voz alta
+        </p>
+
+        <button id="reproduzir" type="button"
+            data-pt="Reproduzir"
+            data-en="Play"
+            data-es="Reproducir">
+            Reproduzir
+        </button>
+
+        <button id="pausar" type="button"
+            data-pt="Pausar"
+            data-en="Pause"
+            data-es="Pausar">
+            Pausar
+        </button>
+
+        <button id="encerrar" type="button"
+            data-pt="Encerrar"
+            data-en="Stop"
+            data-es="Detener">
+            Encerrar
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
